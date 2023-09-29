@@ -63,11 +63,11 @@ services:
       - mongo
 
     extra_hosts:
-      - "localhost:192.168.5.220"
+      - "localhost:172.31.47.124"
 
     environment:
       EMQX_NAME: biotech
-      EMQX_HOST: 127.0.0.1
+      EMQX_HOST: 172.31.47.124
 
       TZ: "${TZ}"
 
