@@ -43,7 +43,7 @@ services:
       - mongo
 
     extra_hosts:
-      - "localhost: 20.226.64.163"
+      - "localhost: 18.229.201.96"
 
     environment:
       EMQX_NAME: biotech
